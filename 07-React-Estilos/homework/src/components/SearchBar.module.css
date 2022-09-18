@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+.contenedor{
+    height: 35px;
+    width: 300px;
+    border: 1px solid salmon;
+    margin: 0 auto;
+}
+.ciudad_nombre{
+    background-color: rgba(250, 128, 114, 0.384);
+    width: 70%;
+    height: 100%;
+    border: none;
+    font-weight: 500;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 10px;
+}
+.ciudad_nombre:active{
+    outline: none;
+    border: none;
+}
+.ciudad_nombre:focus{
+    outline: none;
+}
+
+.btn_agg{
+    width: 29%;
+    height: 100%;
+    background-color: salmon;
+    color: alicebluecd;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
